@@ -3,18 +3,11 @@
 
 
 
-
-
-
-
-
-
-
 @section('content')
 
 
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+   {{-- <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <a class="navbar-brand" href="#">Fixed navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -36,7 +29,30 @@
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
         </div>
-    </nav>
+    </nav>--}}
+
+{{--  pic_center   Рисунок в центре  --}}
+   <img src="/assets/common/img/ico/pic01.png" alt="exemplesLaravel\public\assets\common\img\ico\pic01.png">
+   <a class="pic_center"
+      href="{{ route('myPic') }}">
+       pic_center
+   </a>
+
+
+   <img src="/assets/common/img/ico/pic01.png" alt="exemplesLaravel\public\assets\common\img\ico\pic01.png">
+   <a class="pic_center"
+      href="{{ route('threePicInCenterBtstrp') }}">
+       threePicInCenterBtstrp
+   </a>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -48,20 +64,7 @@
 
     <style>
 
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
 
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
-        }
 
     </style>
 
@@ -71,5 +74,10 @@
 @section('scripts')
 
 
+    <script>
+
+
+
+    </script>
 
 @stop

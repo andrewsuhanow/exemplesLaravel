@@ -18,4 +18,11 @@
 
 
 
-Route::get('/', ['as'=>'o','uses'=>'MainController@Main']);
+Route::get('/', ['as'=>'MainPage','uses'=>'MainController@Main']);
+Route::get('myPic', ['as' => 'myPic', 'uses' => 'MainController@MyPic']);
+Route::get('threePicInCenterBtstrp', ['as' => 'threePicInCenterBtstrp', 'uses' => 'MainController@ThreePicInCenterBtstrp']);
+
+
+// страница "наши преимущества"
+Route::get('advantages/{id?}', ['as' => 'advantages', 'uses' => 'MainController@advantages']);
+// Route::get('advantages/{id?}', ['as' => 'advantages', 'uses' => 'CommonController\MainController@advantages']);

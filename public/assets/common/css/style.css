@@ -1,17 +1,34 @@
-
 body{
-    /*background: #430000;*/
-    /*color: white;*/
-    /*font-family: "Din pro", serif;*/
-}
 
+}
 
 .wrapper {
-    max-width: 1200px;
-    margin: 0 auto;
-    min-height: 1000px;
-    padding: 12px 0 100px;
+
+    color: white;
+    background: linear-gradient(to right, rgba(67, 0, 0, 0.8), rgba(67, 12, 1, 0.8), rgba(67, 12, 1, 0.8), rgba(67, 12, 1, 0.8), rgba(67, 0, 0, 0.8));
+    padding: 1px 10px 5px;
+    margin: 5px 0 30px;
+    text-align: center;
+
+
 }
+
+.header_block {
+
+}
+
+.main_menu {
+
+}
+
+footer.main_footer {
+    /*border-top: 1px #9F0000 solid;*/
+
+}
+
+
+
+/*
 
 .hidden {
     display: none;
@@ -26,9 +43,7 @@ body{
     text-transform: uppercase;
 }
 
-.header_block {
-    height: 80px;
-}
+
 
 .f_button {
     border: solid 2px white;
@@ -37,7 +52,6 @@ body{
     width: 350px;
     margin: 0 auto;
     color: white;
-    /*background: white;*/
     text-align: center;
     cursor: pointer;
     text-transform: uppercase;
@@ -60,7 +74,6 @@ a.f_button:active {
     margin: 0 auto;
     color: white;
     text-decoration: none;
-    /*background: white;*/
     text-align: center;
     cursor: pointer;
     text-transform: uppercase;
@@ -75,15 +88,11 @@ a.f_button:hover {
     float: left;
 }
 
-.header_block .logo_section .logo_image {
-    /*display: inline-block;*/
-}
 
 .header_block .logo_section a.logo_text,
 .header_block .logo_section a.logo_text:link,
 .header_block .logo_section a.logo_text:active,
 .header_block .logo_section a.logo_text:visited {
-    /*display: inline-block;*/
     margin-left: 20px;
     font-size: 23px;
     font-weight: 600;
@@ -157,15 +166,7 @@ a.f_button:hover {
 }
 
 
-.main_menu {
-    color: white;
 
-    background: linear-gradient(to right, rgba(67, 0, 0, 0.8), rgba(67, 12, 1, 0.8), rgba(67, 12, 1, 0.8), rgba(67, 12, 1, 0.8), rgba(67, 0, 0, 0.8));
-
-    padding: 1px 10px 5px;
-    margin: 5px 0 30px;
-    text-align: center;
-}
 
 .main_menu ul {
     margin: 0;
@@ -182,7 +183,6 @@ a.f_button:hover {
 .main_menu ul li a:link,
 .main_menu ul li a:active {
 
-    /*color: #F2EFEF;*/
     color: #B3B3B3;
     font-weight: 400;
     font-size: 13px;
@@ -197,21 +197,11 @@ a.f_button:hover {
 .main_menu ul li a.active:active {
 
     font-weight: 800;
-    /*color: #DE0000;*/
     color: #F2EFEF;
-
-
-    /*color: #F2EFEF;*/
-    /*font-weight: 400;*/
-    /*font-size: 13px;*/
-    /*letter-spacing: 1px;*/
-    /*text-decoration: none;*/
-    /*padding: 0 25px 0 27px;*/
 }
 
 .main_menu ul li a:hover {
     font-weight: 800;
-    /*color: #DE0000;*/
     color: #F2EFEF;
 }
 
@@ -273,7 +263,6 @@ a.f_button:hover {
     font-size: 10px;
     font-weight: 500;
     text-shadow: 1px 1px 17px black;
-    /*box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
 }
 
 
@@ -284,7 +273,6 @@ a.f_button:hover {
 
 .news_block .brand_item img{
     width: 253px;
-    /*height: 100px;*/
     position: absolute;
 }
 
@@ -318,7 +306,6 @@ a.f_button:hover {
 
 .buttons_block {
     text-align: center;
-    /*margin: 100px 0 30px;*/
 }
 
 .buttons_block .other_news a,
@@ -363,11 +350,7 @@ a.f_button:hover {
 }
 
 
-footer.main_footer {
-    border-top: 1px #9F0000 solid;
-    margin-top: 60px;
-    padding-top: 30px;
-}
+
 
 footer.main_footer .right {
     float: right;
@@ -421,3 +404,4 @@ footer.main_footer .left .soc a {
     display: none;
     font-size: 14px;
 }
+*/
